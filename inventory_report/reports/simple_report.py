@@ -27,7 +27,8 @@ class SimpleReport:
             for chave in values:
                 if chave == 'data_de_fabricacao':
                     d = datetime.datetime.strptime(values[chave], "%Y-%m-%d")
-                    if d < datetime.datetime.strptime(date_more_old, "%Y-%m-%d"):
+                    if d < datetime.datetime.strptime(
+                            date_more_old, "%Y-%m-%d"):
                         date_more_old = values[chave]
         return date_more_old
 
