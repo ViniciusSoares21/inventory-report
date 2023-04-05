@@ -44,7 +44,7 @@ data = [
     "data_de_fabricacao": "2021-04-14",
     "data_de_validade": "2025-01-14",
     "numero_de_serie": "LV23 ELDS 2GD5 X19P VCSI K",
-    "instrucoes_de_armazenamento": "instrucao 5" 
+    "instrucoes_de_armazenamento": "instrucao 5"
   },
   {
     "id": "6",
@@ -54,7 +54,7 @@ data = [
     "data_de_validade": "2024-10-05",
     "numero_de_serie": "FR57 7414 7254 046O IHVX AV6L H71",
     "instrucoes_de_armazenamento": "instrucao 6" 
-  },
+  }
   {
     "id": "7",
     "nome_do_produto": "Spironolactone",
