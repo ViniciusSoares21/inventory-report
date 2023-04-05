@@ -15,13 +15,7 @@ def create_object_company(data: list[dict]) -> dict:
 
 def company_more_product(data: list[dict]) -> str:
     company_product = create_object_company(data)
-    company_more_product = ''
-    more_qty_the_product = max(company_product.values())
-    for company, qty in company_product.items():
-        if qty == more_qty_the_product:
-            company_more_product = company
-
-    return company_more_product
+    return max(company_product, key=company_product.get)
 
 
 def date_now():
