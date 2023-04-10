@@ -21,5 +21,4 @@ class XmlImporter(Importer):
         if not verify_path:
             raise ValueError('Arquivo inválido')
         data_xml = cls.read_xml(path)
-        print(data_xml[0])
         return data_xml

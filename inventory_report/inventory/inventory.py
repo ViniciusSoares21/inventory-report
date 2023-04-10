@@ -53,7 +53,7 @@ class Inventory:
 
     @classmethod
     def import_data(self, path: str, type):
-        print(path)
+
         if '.csv' in path:
             return self.csv_report(self, path, type)
 
